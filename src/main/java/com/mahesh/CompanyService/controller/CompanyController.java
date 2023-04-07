@@ -10,4 +10,10 @@ public class CompanyController {
     public String sayHello(){
         return "Hello Mahesh welcome to Intellij";
     }
+
+    @GetMapping("/hellodev")
+    public String sayHelloodev(){
+        return "Hello Mahesh welcome to Intellij";
+    }
+
 }
